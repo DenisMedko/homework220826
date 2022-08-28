@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 206px;
+    height: 102px;
+    margin-left: 4.5%;
+}
+.menu {
+    width: 40px;
+    height: 32px;
+    margin-right: 4.5%;
+}

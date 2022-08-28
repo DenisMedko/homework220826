@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/header-img.png");
+    background-size: cover;
+    height: 674px;
+}
+
+.btn-header {
+    width: 236px;
+    height: 68px;
+    border-radius: 25px;
+    margin: 10px 10px;
+}
+
+.btn-playstore {
+    background-color: #FA4A0C;
+}
+.btn-playstore:hover {
+    background-color: #FFFFFF;
+    color:#FA4A0C;
+}
+
+.btn-appstore {
+    background-color: inherit;
+}
+
+.btn-appstore:hover {
+    background-color: #FFFFFF;
+    color:#FA4A0C;
+}
