@@ -12,7 +12,8 @@
     width: 236px;
     height: 68px;
     border-radius: 25px;
-    margin: 10px 10px;
+    margin: 50px 10px 10px;
+    z-index: 2;
 }
 
 .btn-playstore {
@@ -30,4 +31,51 @@
 .btn-appstore:hover {
     background-color: #FFFFFF;
     color:#FA4A0C;
+}
+
+.phones-img {
+    width: 100%;
+   
+}
+.app-main-images {
+    width: 548px;
+    height: 640px;
+    margin-top: -125px;
+    margin-left: -100px;
+    margin-bottom: -600px;
+    /* background-color: aqua; */
+    z-index: 1;
+}
+
+.phone-orange-container {
+    /* width: inherit;
+    height: 100%;
+    background-color: blue;
+    background-image: url("../images/phone-orange.png");
+    background-size: 300px 600px;
+    background-size: contain;
+    height: 586px; */
+    /* margin-bottom: -600px;
+    z-index: 1; */
+}
+.phone-img-orange {
+    /* width: 100%;
+    height: 100%; */
+}
+
+.phone-white-container {
+    /* width: inherit;
+    height: 100%;
+    background-color: yellow;
+    background-image: url("../images/phone-white.png");
+    background-size: 300px 600px;
+    width: 236px;
+    height: 531px; */
+    /* margin-bottom: -600px;
+    z-index: 1; */
+}
+
+.phone-img-white {
+    /* width: 100%;
+    height: 100%; */
 }
