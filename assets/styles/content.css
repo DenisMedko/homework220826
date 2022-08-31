@@ -1,7 +1,6 @@
 .content {
     display: flex;
     flex-direction: column;
-    background-color: blue;
 }
 .buttons {
     display: flex;
@@ -11,4 +10,12 @@
 .btn {
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.img {
+    margin: 30px 30px;
 }

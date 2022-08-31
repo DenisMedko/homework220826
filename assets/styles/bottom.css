@@ -1,19 +1,17 @@
-.header-content {
+.bottom-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/header-img.png");
+    background-image: url("../images/bottom-img.png");
     background-size: cover;
     height: 674px;
 }
 
-.btn-header {
+.btn-bottom {
     width: 236px;
     height: 68px;
-    border-radius: 25px;
     margin: 50px 10px 10px;
-    z-index: 2;
 }
 
 .btn-playstore {
@@ -37,11 +35,4 @@
     width: 100%;
    
 }
-.phones-group-container {
-    width: 548px;
-    height: 640px;
-    margin-top: -125px;
-    margin-left: -100px;
-    margin-bottom: -600px;
-    z-index: 1;
-}
+

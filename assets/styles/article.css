@@ -1,4 +1,17 @@
 .article {
-    background-color: yellow;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-img {
+    width: 320px;
+    height: 525px;
+}
+
+.article-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
