@@ -8,10 +8,16 @@
 @import 'bottom.css';
 @import 'footer.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
     --main-theme-color: #FA4A0C;
     --alt-theme-color: #FFFFFF;
     --black-text-color: #000000;
+    --grey-text-color: #737373;
+    --grey-alt-text-color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 h2 {
@@ -28,6 +34,8 @@ h3 {
 }
 
 h4 {
+    color:var(--grey-text-color);
+    font-weight: bold;
     font-size: 24px;
     margin: 10px;
 }
@@ -41,7 +49,10 @@ h4 {
         flex-direction: column;
     }
     .buttons {
-        flex-direction: column;
+        flex-direction: column;  
+    }
+    .btn-header, .btn-footer {
+        margin-top: 10px;
     }
     .btn-appstore {
         color: var(--main-theme-color);
@@ -64,5 +75,11 @@ h4 {
         flex-direction: column;
         align-items: center;
     }
+    .header-content h4 {
+        color:var(--grey-text-color);
+    }
+    /*.footer-content h4 {
+        color:var(--grey-text-color);
+    }*/
 
 }

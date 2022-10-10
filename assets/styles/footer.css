@@ -6,7 +6,7 @@
 .footer-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-image: url("../images/bottom-img.png");
     background-size: cover;
@@ -49,5 +49,8 @@
 
 .footer-text {
     color: var(--alt-theme-color);
+}
+.footer-content h4 {
+    color:var(--grey-alt-text-color);
 }
 
