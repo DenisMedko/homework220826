@@ -1,9 +1,6 @@
 .splitter {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
-    /* height: 600px; */
-    
 }
 
 .splitter-line {
@@ -16,6 +13,6 @@
 .splitter-text {
     margin: 50px auto;
     color: #000000;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 44px;
 }

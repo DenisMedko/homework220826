@@ -8,8 +8,8 @@
 }
 
 .btn {
-    border: 2px solid #FFFFFF;
-    color: #FFFFFF;
+    border: 2px solid var(--alt-theme-color);
+    color: var(--alt-theme-color);
 }
 
 .row-reverse {
